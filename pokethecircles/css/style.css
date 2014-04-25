@@ -16,7 +16,9 @@
   font-weight: 600;
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
-
+html,body {
+	min-height: 100%;
+}
 body {
 	background-image: url(../images/pattern4.png);
 	font-family: 'Open Sans 300';
@@ -51,6 +53,7 @@ a:hover{
 .main-container {
 	width: 550px;
 	margin: auto;
+	min-height: 100%;
 }
 .footer {
 	bottom: 0;
