@@ -95,7 +95,9 @@ ul.policy {
 h1,h2,h3 {
 	font-family: 'Open Sans 600';
 }
-
+.opensans600 {
+	font-family: 'Open Sans 600';
+}
 p {
 	line-height: 1.9em;
 	text-align: left;
