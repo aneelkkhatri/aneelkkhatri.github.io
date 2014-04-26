@@ -13,6 +13,17 @@
 	<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
+	<!-- Facebook Initialize - START -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=162820613918802";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Facebook Initialize - END -->
+
 	<div class="main-container">
 		<br /><br /><br /><br /><br /><br /><br /><br />
 		<div class="background"></div>
@@ -21,8 +32,27 @@
 				<img src="./images/WindowsStore_badge_en_English_Black_small_154x40.png"></img>
 			</a>
 		</p>
-		<p class="small" style="text-align: center"><a href="./privacy_policy.html">PRIVACY POLICY</a></p>
+		<div class="sharing">
+			<div class="twitter"><!-- Twitter Button - START -->
+				<!-- With cont -->
+				<!--
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this game where you poke circles reflexively, attentively and addictively!" data-via="aneelkkhatri" data-hashtags="PokeTheCircles" data-dnt="true">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				-->
+				<!--Without count -->
+
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this game where you poke circles reflexively, attentively and addictively!" data-via="aneelkkhatri" data-count="none" data-hashtags="PokeTheCircles" data-dnt="true">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				
+				
+			</div><!-- Twitter Button - END -->
+
+			<div class="facebook"><!-- Facebook Share Button - START -->
+				<div class="fb-share-button" data-href="http://aneelkkhatri.github.io/pokethecircles/" data-type="button"></div>
+			</div><!-- Facebook Share Button - END -->
+			
+		</div>
 	</div>
-	<div class="footer">Copyrights 2014 - Aneel Kumar Khatri</div>
+	<div class="footer">&copy; 2014 | <a href="./privacy_policy.html">Privacy Policy</a><br />Aneel Kumar Khatri | Taha Munir<br /></div>
 </body>
 </html>
