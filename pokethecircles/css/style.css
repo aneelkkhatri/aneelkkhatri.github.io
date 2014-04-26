@@ -21,14 +21,16 @@ html,body {
 }
 body {
 	background-image: url(../images/pattern4.png);
-	font-family: 'Open Sans 300';
+	font-family: 'Open Sans 400';
 
 	color: #555555;
 	text-align: left;
 	margin: 0;
-
+	font-size: 14px;
 }
-
+.small {
+	font-size: 12px;
+}
 a {
 	color: #777777;
 	text-decoration: none;
@@ -37,7 +39,6 @@ a {
 a:hover{
 	color: #FF5E45
 }
-
 .background {
 	background-image: url(../images/splashscreen.scale-100.png);
 	background-repeat: no-repeat;
@@ -48,12 +49,20 @@ a:hover{
 }
 .centered {
 	text-align: center;
-	font-weight: bold;
 }
 .main-container {
-	width: 550px;
+	width: 600px;
 	margin: auto;
 	min-height: 100%;
+}
+ul.policy {
+	list-style: none; 
+	padding: 6px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+ul.policy >li {
+
 }
 .footer {
 	bottom: 0;
@@ -68,11 +77,49 @@ a:hover{
 	letter-spacing: 0.07em;
 }
 h1,h2,h3 {
-	font-family: 'Open Sans 400';
+	font-family: 'Open Sans 600';
 }
 
 p {
 	line-height: 1.9em;
 	text-align: left;
 
+}
+
+.promo_414_180 {
+	background-image: url(../images/promotional_414_180.png);
+	background-repeat: no-repeat;
+	/*background-color: red;*/
+	background-size: 100%;
+	width: 414px;
+	height: 180px;
+	display: block;
+}
+
+.win-download-small {
+	background-image: url(../images/WindowsStore_badge_en_English_Black_small_154x40.png);
+	width: 154px;
+	height:40px;
+	display: inline-block;
+}
+
+.win-download-small:hover {
+	background-image: url(../images/WindowsStore_badge_en_English_ReddishPink_small_154x40.png);
+	width: 154px;
+	height:40px;
+	display: inline-block;
+}
+
+@media (max-width: 414px) {
+	.promo_414_180 {
+		width: 100%;
+	}
+}
+@media (max-width: 600px) {
+
+	.main-container {
+		width: 100%;
+		margin: auto;
+		min-height: 100%;
+	}	
 }
