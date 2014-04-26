@@ -54,8 +54,6 @@ a:hover{
 	width: 600px;
 	margin: auto;
 	min-height: 100%;
-	clear: both;
-	padding-bottom: 50px;
 }
 ul.policy {
 	list-style: none; 
@@ -75,16 +73,21 @@ ul.policy {
 .sharing > * {
 	margin: 6px;
 }
+.footerpusher {
+	width: 100%;
+	height: 50px;
+	visibility: hidden;
+}
 .footer {
 	margin-top: -50px;
 	height: 50px;
 	width: 100%;
+	padding: 10px; 
 	background-image: url(../images/pattern4.png);
-	
 	color: #aaaaaa;
+
 	font-size: 10px;
 	text-align: center;
-	padding: 10px; 
 	letter-spacing: 0.07em;
 }
 h1,h2,h3 {
