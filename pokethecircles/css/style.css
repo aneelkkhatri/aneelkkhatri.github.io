@@ -59,13 +59,13 @@ a:hover{
 	bottom: 0;
 	height: 50px;
 	width: 100%;
-	background-image: url(../images/pattern2.png);
-	background-color: #333333;
+	background-image: url(../images/pattern4.png);
+	background-color: #2a2a2a;
 	color: #aaaaaa;
 	font-size: 12px;
 	text-align: center;
 	padding: 10px; 
-
+	letter-spacing: 0.07em;
 }
 h1,h2,h3 {
 	font-family: 'Open Sans 400';
