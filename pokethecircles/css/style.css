@@ -51,7 +51,8 @@ a:hover{
 	text-align: center;
 }
 .main-container {
-	width: 600px;
+	width: 100%;
+	max-width: 550px;
 	margin: auto;
 	min-height: 100%;
 }
@@ -106,7 +107,8 @@ p {
 	background-repeat: no-repeat;
 	/*background-color: red;*/
 	background-size: 100%;
-	width: 414px;
+	width: 100%;
+	max-width: 414px;
 	height: 180px;
 	display: block;
 }
@@ -123,16 +125,4 @@ p {
 	width: 154px;
 	height:40px;
 	display: inline-block;
-}
-
-@media (max-width: 414px) {
-	.promo_414_180 {
-		width: 100%;
-	}
-}
-@media (max-width: 600px) {
-
-	.main-container {
-		width: 100%;
-	}	
 }
