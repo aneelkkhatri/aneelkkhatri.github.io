@@ -66,10 +66,13 @@ ul.policy {
 	padding: 20px;
 	width: 100%;
 	max-width: 400px;
-	background: red;
+	/*background: red;*/
 	margin: auto;
+	text-align: center;
 }
-
+.sharing > * {
+	margin: 6px;
+}
 .footer {
 	bottom: 0;
 	height: 50px;
