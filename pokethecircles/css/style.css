@@ -83,7 +83,7 @@ ul.policy {
 	margin-top: -50px;
 	height: 50px;
 	width: 100%;
-	padding: 10px; 
+	
 	background-image: url(../images/pattern5.png);
 	background-color: #ffffff;
 	color: #777777;
@@ -91,6 +91,9 @@ ul.policy {
 	font-size: 10px;
 	text-align: center;
 	letter-spacing: 0.07em;
+}
+.footer > div {
+	padding: 10px;
 }
 h1,h2,h3 {
 	font-family: 'Open Sans 600';
