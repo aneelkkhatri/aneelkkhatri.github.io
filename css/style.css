@@ -3,9 +3,28 @@ html, body {
 	height: 100%;
 }
 
-body {
+* {
+	font-family: "Open Sans";
 	color: #444;
-	font-family: 'Open Sans';
 }
 
+body {
+	font-size: 17px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 20px;
+}
+
+#main {
+	max-width: 600px;
+	margin: 0px auto;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
 
