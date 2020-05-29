@@ -9,7 +9,7 @@
 	<script type="text/javascript" src="./js/script.js"></script>
 	<style type="text/css">
 		#repo-name span{
-		    margin-left: 7px;
+		    /*margin-left: 7px;*/
 		    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 		}
 		#main {
@@ -46,7 +46,7 @@
 		ul.general-list li a {
 			font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 		}
-		ul.general-list li a:hover {
+		a:hover {
 			color: rgb(247, 246, 243);
 			background: rgb(55, 53, 47);
 		}
@@ -58,12 +58,16 @@
 </head>
 <body style="margin: 0; padding: 0">
 	<div style="background: #f6f8fa!important;height:220px; width: 100%; position: absolute; z-index: -100; top: 0px"></div>
+	<!-- <div style="background: #f6f8fa!important;height:120px; width: 100%; position: absolute; z-index: -100; top: 0px"></div> -->
 	<div id="main">
 		<div style="margin: 0px 0px 74px 0px">
 			<div><img src="./img/aneel-175.png" width="88px" height="88px" style="border: 16px solid #fff;"></div>
 			<div id="repo-name" style="margin-top: 17px;"><span style="font-weight: 700;color: #24292e!important;">aneelkkhatri</span><span style="margin: 0;">.github.io</span></div>
+			<!-- <div id="repo-name" style="margin-top: 17px; "><span style="font-weight: 700;color: #24292e!important;">aneelkkhatri</span><span>.github.io</span></div> -->
+
+			<!-- <div id="header" style="margin-top: 17px; "><span>Welcome!</span> <span>my name is </span><span style="font-weight: 700;color: #24292e!important; ">Aneel!</span><span></span></div> -->
 		</div>
-		<h3># Places</h3>
+		<h3 alt="places"><a href="#places" name="places"># Places</a></h3>
 		<ul class="general-list">
 			<li>
 				<a href="https://github.com/aneelkkhatri">github</a>
@@ -85,7 +89,7 @@
 			</li>
 			<li/>
 		</ul>
-		<h3># Experiments</h3>
+		<h3><a href="#experiments" name="experiments"># Experiments</a></h3>
 		<ul class="general-list">
 			<li>
 				<a href="https://aneelkkhatri.github.io/keyshit">keys hit</a>
