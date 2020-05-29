@@ -10,8 +10,8 @@ html, body {
 
 body {
 	font-size: 17px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	/*-webkit-font-smoothing: antialiased;*/
+	/*-moz-osx-font-smoothing: grayscale;*/
 	padding: 20px;
 }
 
